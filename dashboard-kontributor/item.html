@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Item</title>
+
+	<link rel="shortcut icon" href="../images/logo_brand_karsa.svg">
+
+	<link rel="stylesheet" href="../css/dashboard/style.css">
+
+	<style>
+		a.card-item {
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    box-shadow: -3px -3px 2px white, 3px 3px 2px #5e6e94;
+		    margin: 10px;
+		    border-radius: 10px;
+		    transition: .5s;
+		}
+
+		a.card-item:hover {
+		    box-shadow: -1px -1px 1px white, 1px 1px 1px #5e6e94;
+		    background: white;
+		    transform: translateY(2px);
+		}
+	</style>
+
+</head>
+<body>
+
+	<header>
+		<div class="brand">
+			<img src="../images/tulisan_karsa.svg" alt="karsa">
+		</div>
+		<div class="nav">
+			<a href="" class="nav-item">
+				<img src="../images/icon/icon-bell.svg" alt="bell">
+			</a>
+			<a href="" class="nav-item">
+				<img src="../images/icon/icon-mail.svg" alt="mail">
+			</a>
+			<div class="user">
+				<img src="../images/kontributor.jpg" alt="member">
+				<p>Abdul Latif Mubasir</p>
+			</div>
+		</div>
+		<div class="icon-sidebar-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+	</header>
+
+	<aside>
+		<div class="user-auth">
+			<img src="../images/kontributor.jpg" alt="kontributr">
+			<h3>Abdul Latif Mubasir</h3>
+			<h5>Kontributor</h5>
+		</div>
+		<div class="sidebar-menu">
+			<a href="" class="menu-item">Dashboard</a>
+			<a href="item.html" class="menu-item active">Item</a>
+			<a href="keuangan.html" class="menu-item">Keuangan</a>
+			<a href="pengikut.html" class="menu-item">Pengikut</a>
+			<a href="koleksi.html" class="menu-item">Koleksi</a>
+			<a href="pesan.html" class="menu-item">Pesan</a>
+			<a href="profile.html" class="menu-item">Profile</a>
+			<a href="kontrak.html" class="menu-item">Kontrak</a>
+			<a href="bantuan.html" class="menu-item">Bantuan</a>
+			<a href="../index.html" class="menu-item">Keluar</a>
+		</div>
+		<div class="copyright">
+			&copy;2020 Karsa
+		</div>
+	</aside>
+
+
+
+	<div class="body-dashboard">
+		<h1 class="title-page" style="margin-bottom: 40px">Item</h1>
+		<h3>Daftar Item</h3>
+		<div class="row">
+			<div class="col">
+				<a href="" class="card-item">
+					<img src="../images/login_illustrasi.svg" alt="illustrasi">
+				</a>
+			</div>
+			<div class="col">
+				<a href="" class="card-item">
+					<img src="../images/login_illustrasi.svg" alt="illustrasi">
+				</a>
+			</div>
+			<div class="col">
+				<a href="" class="card-item">
+					<img src="../images/login_illustrasi.svg" alt="illustrasi">
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<a href="" class="card-item">
+					<img src="../images/login_illustrasi.svg" alt="illustrasi">
+				</a>
+			</div>
+			<div class="col">
+				<a href="" class="card-item">
+					<img src="../images/login_illustrasi.svg" alt="illustrasi">
+				</a>
+			</div>
+			<div class="col">
+				<a href="" class="card-item">
+					<img src="../images/login_illustrasi.svg" alt="illustrasi">
+				</a>
+			</div>
+		</div>
+		<div class="pagination">
+			<button class="page-item btnDecrement"><<</button>
+			<button class="page-item">1</button>
+			<button class="page-item">2</button>
+			<button class="page-item">3</button>
+			<button class="page-item">4</button>
+			<button class="page-item">5</button>
+			<button class="page-item btnIncrement">>></button>
+		</div>
+
+	</div>
+
+
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

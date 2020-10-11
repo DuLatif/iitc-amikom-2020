@@ -1,0 +1,92 @@
+.body-dashboard h2 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+
+.body-dashboard .row .col-2 {
+	margin-right: 20px;
+}
+
+.body-dashboard .row .col-2 .col {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.body-dashboard .row .col-2 .col .card {
+	margin: 20px auto;
+	text-align: center;
+}
+
+.body-dashboard .row .col-2 .col .card h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.body-dashboard .row .col-2 .col .card p {
+    font-size: 13px;
+}
+
+.body-dashboard .row .col-2 .col .card-koleksi {
+    width: 95%;
+    box-shadow: -2px -2px 4px white, 2px 2px 4px #5e6e94;
+    border-radius: 10px;
+    display: block;
+    transition: .5s;
+    margin-bottom: 15px;
+}
+
+.body-dashboard .row .col-2 .col .card-koleksi img {
+	width: 100%;
+}
+
+.body-dashboard .row .col-2 .col .card-koleksi:hover {
+    box-shadow: -1px -1px 1px white, 1px 1px 1px #5e6e94;
+}
+
+.body-dashboard .row .col-2 .col .card a.detail {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: .5s;
+    box-shadow: -1px -1px 2px white , 1px 1px 2px #5e6e94;
+}
+
+.body-dashboard .row .col-2 .col .card a.detail:hover {
+    box-shadow: 0px 0px 2px white, 0px 0px 1px #5e6e94;
+}
+
+
+.newst {
+    margin-top: 20px;
+}
+.newst a {
+    display: block;
+    margin: 5px auto;
+    padding: 5px 10px;
+    box-shadow: -2px -2px 3px white, 1px 1px 2px #5e6e94;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: .4s;
+}
+.newst a:hover {
+    box-shadow: 0px 0px 1px white, 0px 0px 1px #5e6e94;
+    background: white;
+}
+
+
+
+@media(max-width: 400px) {
+    .body-dashboard .row.list-koleksi {
+        flex-direction: column-reverse;
+    }
+
+    .body-dashboard .row .col-2 .col .card-koleksi {
+        width: 110%;
+    }
+}

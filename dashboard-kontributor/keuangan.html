@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Item</title>
+
+	<link rel="shortcut icon" href="../images/logo_brand_karsa.svg">
+
+	<link rel="stylesheet" href="../css/dashboard/style.css">
+	<style>
+		table {
+		    padding: 20px;
+		    box-shadow: -3px -3px 3px white, 3px 3px 3px #5e6e94;
+		    border-radius: 10px;
+		    background: #f0f3ff;
+		    width: 100%;
+		    text-align: center;
+	    },
+	    table tbody tr td {
+	    	font-size: 14px;
+	    }
+
+	    .card-value {
+		    box-sizing: border-box;
+		    box-shadow: -2px -2px 2px white, 2px 2px 2px #5e6e94;
+		    border-radius: 10px;
+		    background: #f0f3ff;
+		    margin: 15px auto;
+		    width: 80%;
+		    text-align: center;
+		    display: flex;
+		    align-items: center;
+		}
+
+		.card-value img {
+		    width: 35%;
+		    margin: 10px auto;
+		    box-sizing: border-box;
+		    padding-left: 15px;
+		}
+
+		.card-value .deskripsi h5 {
+		    font-size: 20px;
+		    text-transform: uppercase;
+		    font-weight: lighter;
+		}
+		.card-value .deskripsi {
+		    width: 65%;
+		    text-align: left;
+		    box-sizing: border-box;
+		    padding-left: 20px;
+		}
+		.card-value h3.value {
+		    font-size: 40px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="brand">
+			<img src="../images/tulisan_karsa.svg" alt="karsa">
+		</div>
+		<div class="nav">
+			<a href="" class="nav-item">
+				<img src="../images/icon/icon-bell.svg" alt="bell">
+			</a>
+			<a href="" class="nav-item">
+				<img src="../images/icon/icon-mail.svg" alt="mail">
+			</a>
+			<div class="user">
+				<img src="../images/kontributor.jpg" alt="member">
+				<p>Abdul Latif Mubasir</p>
+			</div>
+		</div>
+		<div class="icon-sidebar-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+	</header>
+
+	<aside>
+		<div class="user-auth">
+			<img src="../images/kontributor.jpg" alt="kontributr">
+			<h3>Abdul Latif Mubasir</h3>
+			<h5>Kontributor</h5>
+		</div>
+		<div class="sidebar-menu">
+			<a href="" class="menu-item">Dashboard</a>
+			<a href="item.html" class="menu-item">Item</a>
+			<a href="keuangan.html" class="menu-item active">Keuangan</a>
+			<a href="pengikut.html" class="menu-item">Pengikut</a>
+			<a href="koleksi.html" class="menu-item">Koleksi</a>
+			<a href="pesan.html" class="menu-item">Pesan</a>
+			<a href="profile.html" class="menu-item">Profile</a>
+			<a href="kontrak.html" class="menu-item">Kontrak</a>
+			<a href="bantuan.html" class="menu-item">Bantuan</a>
+			<a href="../index.html" class="menu-item">Keluar</a>
+		</div>
+		<div class="copyright">
+			&copy;2020 Karsa
+		</div>
+	</aside>
+
+
+
+	<div class="body-dashboard">
+		<h1 class="title-page" style="margin-bottom: 40px">Keuangan</h1>
+
+		<div class="row">
+			<div class="col row">
+				<div class="card-value">
+					<img src="../images/unduh-illustrasi.svg" alt="unduh">
+					<div class="deskripsi">
+						<h3 class="value">200</h3>
+						<h5>Unduhan</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col row">
+				<div class="card-value">
+					<img src="../images/dashboard/uang-illustrasi.svg" alt="uang">
+					<div class="deskripsi">
+						<h3 class="value">100JT</h3>
+						<h5>Pendapatan</h5>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+		<table>
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Hari / Tanggal</th>
+					<th>Bulan</th>
+					<th>Tahun</th>
+					<th>Total Pendapatan</th>
+					<th>Total Unduhan</th>
+				</tr>
+			</thead>
+			<tbody style="font-size: 14px">
+				<tr>
+					<td>1</td>
+					<td>Senin , 2</td>
+					<td>September</td>
+					<td>2020</td>
+					<td>Rp. 220.000,00</td>
+					<td>210</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Selasa , 3</td>
+					<td>September</td>
+					<td>2020</td>
+					<td>Rp. 100.000,00</td>
+					<td>120</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Rabu , 4</td>
+					<td>September</td>
+					<td>2020</td>
+					<td>Rp. 320.000,00</td>
+					<td>150</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Kamis , 5</td>
+					<td>September</td>
+					<td>2020</td>
+					<td>Rp. 240.000,00</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Jumat , 6</td>
+					<td>September</td>
+					<td>2020</td>
+					<td>Rp. 280.000,00</td>
+					<td>190</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Sabtu , 7</td>
+					<td>September</td>
+					<td>2020</td>
+					<td>Rp. 200.000,00</td>
+					<td>260</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="pagination">
+			<button class="page-item btnDecrement"><<</button>
+			<button class="page-item">1</button>
+			<button class="page-item">2</button>
+			<button class="page-item">3</button>
+			<button class="page-item">4</button>
+			<button class="page-item">5</button>
+			<button class="page-item btnIncrement">>></button>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

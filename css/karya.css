@@ -1,0 +1,119 @@
+.banner {
+	text-align: center;
+    background: linear-gradient(45deg, #193aa5, #886abf);
+    color: white;
+    padding: 50px 40px;
+}
+
+.banner h2 {
+	font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.banner input {
+	border: 2px solid white;
+    background: transparent;
+    font-size: 20px;
+    width: 60%;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+
+.row.content {
+	background: linear-gradient(45deg, #eef7fb,#f0e8f3);
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.list-karya {
+	width: 75%;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.list-karya .row {
+	width: 100%;
+}
+
+.list-karya .row .col .card-thumb {
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+    box-shadow: -5px -5px 15px white, 5px 5px 15px #d1e3ec;
+    border-radius: 10px;
+    transition: .5s .1s;
+}
+
+.list-karya .row .col .card-thumb img {
+	width: 95%;
+	transition: .7s;
+}
+
+.list-karya .row .col .card-thumb:hover {
+	background: white;
+    box-shadow: none;
+}
+
+.list-karya .row .col .card-thumb:hover img {
+	transform: scale(1.07);
+}
+
+
+.filter {
+	width: 20%;
+    box-shadow: -7px 0px 20px white;
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+.filter h4 {
+    font-size: 15px;
+    color: #89a1ef;
+}
+.filter div label {
+    text-transform: lowercase;
+    font-family: 'Open Sans','Arial', sans-serif;
+}
+.filter div input {
+    height: 10px;
+    margin-right: 5px;
+}
+.filter div {
+    margin: 6px auto;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.filter .btnFilter {
+    border: 0px;
+    background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #c9b4e4, -2px -2px 4px white;
+    color: #89a1ef;
+    margin: 10px auto;
+    transition: .5s;
+}
+
+.filter .btnFilter:hover {
+    background:  #89a1ef;
+    color: white;
+    box-shadow: none;
+}
+
+
+@media(max-width: 400px) {
+    .banner h2 {
+        font-size: 20px;
+    }
+
+    .list-karya {
+        width: 100%;
+        padding: 20px 0px;
+    }
+}

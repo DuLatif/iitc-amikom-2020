@@ -1,0 +1,7 @@
+biru muda => #32cbff
+biru tua => #00a5e4
+ungu => #89a1ef
+pink => #ef9cda
+pink muda => #fecef1
+
+background biru muda = #ebf3f7

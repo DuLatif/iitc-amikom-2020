@@ -1,0 +1,193 @@
+
+.banner {
+    text-align: center;
+    background: linear-gradient(45deg, #193aa5, #886abf);
+    color: white;
+    padding: 50px 40px;
+}
+
+.banner h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.banner input {
+    border: 2px solid white;
+    background: transparent;
+    font-size: 20px;
+    width: 60%;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.row.content {
+    background: linear-gradient(45deg, #eef7fb,#f0e8f3);
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.card-style {
+    text-align: center;
+    margin: 30px 15px;
+    background: linear-gradient(45deg, #8aa2f0, #ce9de0);
+    padding: 30px 15px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Open Sans' , 'Arial' , sans-serif;
+}
+
+.card-style .card-img {
+    margin: 10px auto;
+    margin-bottom: 25px;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: .5s .1s;
+}
+
+.card-style .card-img img {
+    height: 100%;
+    width: auto;
+    transition: .7s;
+}
+
+.card-style .card-img:hover {
+	transform: scale(1.1);
+}
+
+.card-style .card-img:hover img {
+    transform: scale(1.15);
+    filter: brightness(1.15);
+}
+
+.card-style .card-content {
+	margin: 20px auto;
+}
+
+.card-style .card-content h4 {
+	font-size: 20px;
+}
+
+.card-style .card-content p {
+    font-size: 14px;
+    opacity: .8;
+}
+
+.card-style .card-footer {
+    margin: 20px auto;
+}
+
+.card-style .card-footer .socmed {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    margin: 15px auto;
+}
+
+.card-style .card-footer .socmed img {
+    height: 35px;
+    width: 35px;
+    opacity: .6;
+    transition: .4s;
+}
+
+
+
+.card-style .card-footer .socmed img:hover {
+    opacity: 1;
+    filter: brightness(130%);
+    transform: translateY(-10px);
+}
+
+.card-style .card-footer a.btn-card {
+	display: inline-block;
+    background: rgba(255,255,255,.7);
+    color: #b49fe6;
+    font-family: 'Montserrat' , 'Helvetica' , sans-serif;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.card-style .card-footer a.btn-card:hover {
+	background: white;
+}
+
+
+.list-kontributor {
+    width: 75%;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.list-kontributor .row {
+    width: 100%;
+}
+
+
+.filter {
+    width: 20%;
+    box-shadow: -7px 0px 20px white;
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+.filter h4 {
+    font-size: 15px;
+    color: #89a1ef;
+}
+.filter h5 {
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+.filter div label {
+    text-transform: lowercase;
+    font-family: 'Open Sans','Arial', sans-serif;
+}
+.filter div input {
+    height: 10px;
+    margin-right: 5px;
+}
+.filter div {
+    margin: 6px auto;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.filter .btnFilter {
+    border: 0px;
+    background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #c9b4e4, -2px -2px 4px white;
+    color: #89a1ef;
+    margin: 10px auto;
+    transition: .5s;
+}
+
+.filter .btnFilter:hover {
+    background:  #89a1ef;
+    color: white;
+    box-shadow: none;
+}
+
+
+@media(max-width: 400px) {
+    .banner h2 {
+        font-size: 20px;
+    }
+    
+    .list-kontributor {
+        width: 100%;
+        padding: 20px 0px;
+    }
+}

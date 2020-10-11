@@ -1,0 +1,102 @@
+.card-profile {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+    box-shadow: -2px -2px 4px white, 2px 2px 2px #5e6e94;
+}
+
+.card-profile .profile {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-profile .profile img {
+    width: 100%;
+}
+
+.card-profile .data {
+	width: 75%;
+	padding: 20px;
+	font-size: 13px;
+}
+
+.card-profile .data h4 {
+	font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.card-profile .data h5 {
+	font-size: 14px;
+    text-transform: lowercase;
+    font-weight: lighter;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+
+
+.card-profile .role {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-profile .role img {
+	transform: translateX(13px);
+}
+
+.card-package img {
+    width: 50%;
+    height: 100px;
+}
+.card-package {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 10px;
+    box-shadow: -2px -2px 4px white, 2px 2px 4px #5e6e94;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .7s;
+}
+
+a.card-package:hover {
+    box-shadow: 1px 1px 2px white, 1px 1px 2px #5e6e94;
+    transform: translateY(4px);
+}
+
+
+@media(max-width: 400px) {
+    .card-profile {
+        flex-direction: column;
+    }
+
+    .card-profile .profile {
+        width: 100%;
+    }
+
+    .card-profile .data h4 {
+        width: 120%;
+        text-align: center;
+        font-size: 15px;
+        margin-left: -20px;
+    }
+
+    .card-profile .role {
+        margin-bottom: 20px;
+    }
+
+    .card-profile .role img {
+        width: 100px;
+        transform: none;
+        margin-bottom: 10px;
+    }
+}

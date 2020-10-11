@@ -1,0 +1,118 @@
+.content {
+	margin-top: 50px;
+	padding: 100px 50px;
+	min-height: 60vh;
+}
+
+.img-thumb {
+	height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -7px -7px 15px white, 7px 7px 15px #ced1e6;
+    margin: 0px 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.img-thumb img{
+	width: 100%;
+}
+
+.img-content , .img-komentar {
+	margin: 20px;
+	box-sizing: border-box;
+    box-shadow: -5px -5px 13px white, 5px 5px 13px #cad2ec;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.img-content p.description {
+	font-family: 'Open Sans', 'Arial',sans-serif;
+    font-size: 14px;
+}
+
+.kontributor {
+	box-shadow: -4px -4px 13px white, 4px 4px 13px #d5dae8;
+    margin: 0px 25px;
+
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 25px 15px;
+}
+
+.kontributor .foto-profile {
+	text-align: center;
+    width: 160px;
+    height: 160px;
+    margin: 15px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.kontributor .foto-profile img {
+	width: 100%;
+}
+
+.kontributor h2 {
+	font-size: 18px;
+    text-align: center;
+    color: #89a1ef;
+}
+
+.kontributor p {
+	font-family: 'Open Sans' , 'Arial' , sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.kontributor .kemampuan , .kontributor .pengalaman {
+	margin: 20px auto;
+}
+
+.kontributor h4 {
+	font-size: 14px;
+}
+
+.kontributor ul {
+	font-size: 13px;
+    margin-left: 20px;
+    font-family: 'Open Sans' , 'Arial', sans-serif;
+}
+
+.kontributor a {
+	font-size: 14px;
+    margin: 15px auto;
+    background: #5e6e949c;
+    box-shadow: -4px -4px 12px white, 4px 4px 12px #cecfe8;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    width: 130px;
+    border-radius: 10px;
+    color: white;
+    transition: .5s;
+}
+
+.kontributor a:hover {
+	background: white;
+	box-shadow: none;
+	color: #5e6e949c
+}
+
+.item-komentar p {
+    font-size: 12px;
+}
+.item-komentar img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.item-komentar {
+    display: flex;
+    padding: 15px 0px;
+    border-bottom: 2px solid #5e6e9461;
+    font-family: 'Open Sans' , 'Arial', sans-serif;
+}

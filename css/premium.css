@@ -1,0 +1,188 @@
+.jumbotron {
+	text-align: center;
+	margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.jumbotron img{
+	width: 300px;
+	margin-bottom: 50px;
+}
+
+.jumbotron h1 {
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+.jumbotron p {
+	width: 70%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+
+.paket {
+	background: #f0f3ff;
+    text-align: center;
+    padding: 80px 50px;
+}
+
+.paket .card-paket {
+    background: #f0f3ff;
+    margin: 30px;
+    box-shadow: -5px -5px 15px white, 5px 5px 15px #d9def1;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.paket .card-paket img {
+	width: 50%;
+    margin-bottom: 20px;
+}
+
+.paket .card-paket h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.paket .card-paket h4 {
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+.paket .card-paket ul {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.paket .card-paket ul li img {
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    transform: translateX(-28px);
+}
+.paket .card-paket ul li {
+    font-size: 13px;
+    margin: 15px auto;
+    list-style-type: none;
+}
+
+.kontributor {
+	width: 70%;
+    margin: 80px auto;
+}
+
+.kontributor img {
+	width: 70%;
+	margin: 20px auto;
+}
+
+.kontributor h2 {
+	font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.kontributor p {
+	line-height: 25px;
+    font-size: 15px;
+}
+
+.kontributor a {
+	display: inline-block;
+    border: 1px solid #5e79b6;
+    padding: 10px 25px;
+    margin: 15px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.kontributor a div{
+	position: absolute;
+    background: #5e6e94;
+    color: white;
+    padding: 10px 25px;
+    margin-left: -25px;
+    transform: translateY(25%);
+    transition: .5s;
+}
+
+.kontributor a:hover div {
+    transform: translateY(-78%);
+}
+
+
+.koleksi {
+    margin: 80px auto;
+    background: #f0f3ff;
+    padding: 100px;
+}
+
+.koleksi .card-thumbnail {
+	margin: 40px 10px;
+    text-align: center;
+}
+
+.koleksi .card-thumbnail .thumbnail {
+	justify-content: center;
+    box-shadow: -5px -5px 10px white, 5px 5px 10px #5e6e943b;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.koleksi .card-thumbnail .thumbnail div {
+	display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.koleksi .card-thumbnail .thumbnail img {
+	box-shadow: -2px -2px 4px white, 1px 1px 3px #5e6e94;
+    padding: 3px;
+    margin: 4px;
+    transition: .5s;
+}
+
+.koleksi .card-thumbnail .thumbnail img.big {
+	width: 55%;
+	margin-left: 18px;
+}
+
+.koleksi .card-thumbnail .thumbnail img:hover {
+	box-shadow: 0px 0px 0px white, 0px 0px 0px #5e6e94;
+	transform: scale(.99);
+}
+
+.koleksi .card-thumbnail h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 23px;
+}
+
+.koleksi .card-thumbnail h5 {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #5e6e9470;
+}
+
+.koleksi .card-thumbnail a {
+	box-shadow: -2px -2px 3px white, 1px 1px 2px #5e6e94;
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: .6s;
+}
+
+.koleksi .card-thumbnail a:hover {
+    box-shadow: 0px 0px 1px white, 0px 0px 1px #5e6e94;
+    background: white;
+    font-size: 15.8px;
+}

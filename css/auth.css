@@ -1,0 +1,156 @@
+body {
+	background: #eff2f8;
+}
+
+.card-main {
+	background: #eff2f8;
+    box-shadow: -10px -10px 30px white, 10px 10px 30px #d2d9e6;
+    width: 90%;
+    margin: 12vh auto;
+    border-radius: 10px;
+}
+
+.card-main .col:nth-child(1) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card-main .col:nth-child(1) img {
+	width: 80%;
+    margin: 30px auto;
+    display: block;
+}
+
+.card-main .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.form {
+	margin: 20px auto;
+	padding-bottom: 20px;
+	border-bottom: 2px solid rgb(94 110 148 / 26%);
+}
+
+.form .form-group input {
+    background: #eff2f8;
+    width: 400px;
+    padding: 12px 8px;
+    border: 2px solid #b6bfd1;
+    color: #5e6e94;
+    border-radius: 5px;
+}
+.form .form-group label {
+    position: absolute;
+    transform: translate(10px, 10px) scale(1);
+    pointer-events: none;
+    background: #eff2f8;
+    padding: 0px 10px;
+    transition: .6s;
+}
+.form .form-group label.active {
+    transform: translate(0px, -8px) scale(.8);
+}
+.form .form-group {
+    width: 100%;
+    margin: 15px auto;
+}
+
+.form button {
+	background: #5e6e94;
+    color: white;
+    border: 0px;
+    padding: 8px 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: -4px -4px 13px white, 4px 4px 13px #c2cce0;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content p {
+	font-size: 14px;
+}
+
+.content .btn-daftar {
+	margin: 10px auto;
+    background: white;
+    padding: 7px 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: -4px -4px 13px white, 4px 4px 13px #dee4f1;
+}
+
+
+
+
+.modal-box {
+    position: fixed;
+    background: #eff2f8;
+    padding: 20px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)  rotateX(90deg);
+    box-shadow: 8px 8px 10px rgb(94 131 190 / 31%);
+    text-align: center;
+    transition: 1s;
+}
+
+.modal-box.active {
+    transform:  translate(-50%, -50%)  rotateX(0deg);
+}
+
+
+
+.modal-box .btnKontributor , .modal-box .btnMember {
+    color: #eff2f8;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 15px 8px;
+    background: #5e6e94;
+    transition: .3s;
+}
+
+.modal-box a:hover {
+    transform: scale(1.1);
+    opacity: .8;
+}
+
+
+
+@media(max-width: 400px) {
+    .card-main .col:nth-child(1) img {
+        width: 270px;
+        display: inline-block;
+    }
+
+    .content h1 {
+        font-size: 30px;
+        font-weight: lighter;
+        text-transform: uppercase;
+    }
+
+    .form .form-group label {
+        transform: translate(-20px, 10px) scale(1);
+    }
+
+    .form .form-group label.active {
+        transform: translate(-50px, -8px) scale(.8);
+    }
+
+    .form .form-group input {
+        width: 150%;
+        margin-left: -45px;
+    }
+
+    .modal-box {
+        width: 80%;
+    }
+}

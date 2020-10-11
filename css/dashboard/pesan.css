@@ -1,0 +1,185 @@
+.daftar-pesan {
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: -3px -3px 4px white, 3px 3px 1px #5e6e94;
+    border-radius: 10px;
+    background: #f0f3ff;
+    padding: 20px;
+    height: 75vh;
+    overflow: auto;
+}
+
+.daftar-pesan input {
+	width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    border: 0;
+    background: #f6f8ff;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: -2px -2px 2px white, 2px 2px 2px #5e6e94;
+    outline: none;
+    color: #5e6e94;
+}
+
+.daftar-pesan a.pesan-item {
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: -2px -2px 4px white, 2px 2px 2px #5e6e94;
+    border-radius: 5px;
+    background: #f6f8ff;
+    transition: .25s;
+}
+
+.daftar-pesan a.pesan-item:hover {
+    box-shadow: -1px -1px 1px white, 1px 1px 1px #5e6e94;
+    background: white;
+    transform: translateY(2px);
+}
+
+.daftar-pesan a.pesan-item img {
+    width: 40px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.daftar-pesan a.pesan-item .data h3 {
+    font-size: 13px;
+}
+
+.daftar-pesan a.pesan-item .data p {
+    font-size: 11px;
+}
+
+
+.card-chat {
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -2px -2px 2px white, 2px 2px 2px #5e6e94;
+    background: #f6f8ff;
+    height: 75vh;
+}
+
+.card-chat .card-header {
+    background: #5e6e94;
+    color: #f6f8ff;
+    display: flex;
+    padding: 10px;
+    height: 10%;
+    box-sizing: border-box;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card-chat img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.card-chat .card-header h2 {
+    font-size: 16px;
+}
+
+.card-chat .card-body {
+    height: 80%;
+    margin: 10px;
+    overflow: auto;
+    background: #f0f3ff;
+    box-shadow: inset 1px 1px 3px #5e6e94, inset -2px -2px 3px 2px white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+.card-chat .isi-pesan {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+.card-chat .pengirim {
+    justify-content: flex-end;
+}
+
+.card-chat .penerima {
+    justify-content: flex-start;
+}
+
+.card-chat .pengirim.isi-pesan .pesan {
+    background: white;
+    font-size: 13px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.card-chat .penerima.isi-pesan img {
+    transform: translateY(90%);
+}
+
+.card-chat .penerima.isi-pesan .pesan {
+    background: #919fc2;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    color: white;
+}
+
+.card-chat .card-body p.waktu {
+    font-size: 11px;
+    opacity: .8;
+    text-align: right;
+    font-style: italic;
+}
+
+
+
+
+.card-chat .card-chat .card-footer {
+    background: #5e6e94;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.card-chat .card-footer {
+    background: #5e6e94;
+    height: 10%;
+    padding: 0px 20px;
+}
+
+.card-chat .card-footer input {
+    border: none;
+    padding: 5px 10px;
+    margin-top: 4px;
+    width: 80%;
+    border-radius: 5px;
+    color: #5e6e94;
+}
+
+.card-chat .card-footer button {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #5e6e94;
+    font-weight: bold;
+}
+
+
+@media(max-width: 400px) {
+    .daftar-pesan , .card-chat {
+        margin-right: 0px;
+        width: 120%;
+        margin-left: -10%;
+    }
+}
